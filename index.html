@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperator</title>
+    <link rel="stylesheet" href="stylr.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Temperature Converter </h1>
+    <form>
+      <label for="temp">Enter temperature:</label>
+      <input type="number" id="temp" name="temp" required />
+      <br />
+      <label for="unit">Select unit:</label>
+      <select id="unit" name="unit">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+      </select>
+      <br />
+      <label id="reslabel" for="result"> Result</label>
+      <input id="result" type="text" />
+      <br />
+      <br />
+      <button type="submit" onclick="chBackcolor('lightskyblue')">
+        Convert
+      </button>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
